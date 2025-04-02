@@ -1,0 +1,46 @@
+@font-face {
+    font-family: fontPizza;
+    src: url(Chieezy\ Burger.ttf);
+}
+body{
+    margin: 0px;
+    line-height: 1.5;
+}
+html{
+    background-color: rgb(255, 187, 0);
+}
+header{
+    background-color: rgb(137, 13, 13);
+    color: black;
+            padding: 20px 10px;
+            text-align: center;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    position: center;
+    gap:100px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.nomedaempresa{
+    font-size: 50px;
+    font-family: fontPizza;
+}
+.slogan{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+main{
+    background-color: rgb(255, 187, 0);
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    background-color: rgb(137, 13, 13);
+    padding: 3px 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
